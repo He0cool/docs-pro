@@ -63,7 +63,20 @@
         minSpareRows: 1,
         autoWrapRow: true,
         colHeaders: true,
-        contextMenu: true
+        contextMenu: true,
+               columns: [
+    {},
+    {},
+    {
+      type: 'dropdown',
+      source: ['yellow', 'red', 'orange', 'green', 'blue', 'gray', 'black', 'white']
+    },
+    {
+      type: 'dropdown',
+      source: ['yellow', 'red', 'orange', 'green', 'blue', 'gray', 'black', 'white']
+    },{},{}
+  ]
+        
       };
 
       $hooksList = $('#hooksList');
